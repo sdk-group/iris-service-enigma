@@ -14,6 +14,9 @@ class EnigmaBox {
 		this.services.initContent();
 	}
 
+	launch() {
+		return Promise.resolve(true);
+	}
 
 }
 
