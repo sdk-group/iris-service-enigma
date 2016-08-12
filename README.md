@@ -1,2 +1,2 @@
-# iris-service-enigma-box
-IRIS enigma-box service
+# iris-service-enigma
+IRIS enigma service
