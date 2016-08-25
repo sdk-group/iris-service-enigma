@@ -1,7 +1,7 @@
 {
-	"name": "iris-service-enigma-box",
+	"name": "iris-service-enigma",
 	"version": "1.0.0",
-	"description": "iris enigma-box service",
+	"description": "iris enigma service",
 	"main": "index.js",
 	"scripts": {
 		"test": "mocha ./build/**/*.test.js -r ./build/index.js",
@@ -9,7 +9,7 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/sdk-group/iris-service-enigma-box.git"
+		"url": "git+https://github.com/sdk-group/iris-service-enigma.git"
 	},
 	"keywords": [
     "iris"
@@ -23,11 +23,10 @@
 	"author": "...",
 	"license": "ISC",
 	"bugs": {
-		"url": "https://github.com/sdk-group/iris-service-enigma-box/issues"
+		"url": "https://github.com/sdk-group/iris-service-enigma/issues"
 	},
-	"homepage": "https://github.com/sdk-group/iris-service-enigma-box#readme",
+	"homepage": "https://github.com/sdk-group/iris-service-enigma#readme",
 	"devDependencies": {
-
 		"babel-plugin-transform-remove-console": "^6.8.0",
 		"babel-plugin-transform-strict-mode": "^6.11.3",
 		"babel-plugin-undeclared-variables-check": "^6.8.0",
@@ -56,6 +55,6 @@
 		"gulp-babel": "^6.1.2",
 		"lodash": "^4.15.0",
 		"resource-management-framework": "git+https://github.com/YuuKohaku/rmf-on-rdf.git",
-		"enigma-box": "git+https://github.com/sdk-group/enigma-box.git"
+		"lodash": "^4.13.1"
 	}
 }

@@ -8,12 +8,12 @@ let tasks = [];
 
 
 module.exports = {
-	module: require('./enigma-box.js'),
+	module: require('./enigma.js'),
 	permissions: [],
 	exposed: true,
 	tasks: tasks,
 	events: {
-		group: 'enigma-box',
+		group: 'enigma',
 		shorthands: events.enigma_box
 	}
 };

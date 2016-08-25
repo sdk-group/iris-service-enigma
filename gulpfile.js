@@ -45,7 +45,7 @@ gulp.task('es6', ['es6-js', 'json']);
 
 gulp.task('upd', ['es6'], function () {
 	return gulp.src(["build/**/*.js"])
-		.pipe(gulp.dest("../iris-v2/node_modules/iris-service-enigma-box/build"));
+		.pipe(gulp.dest("../iris-v2/node_modules/iris-service-enigma/build"));
 });
 
 gulp.task('test-upd', ['start-test'], function () {
