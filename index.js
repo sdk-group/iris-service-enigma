@@ -1,1 +1,1 @@
-module.exports = require("./build/EnigmaBox");
+module.exports = require("./build/enigma");
