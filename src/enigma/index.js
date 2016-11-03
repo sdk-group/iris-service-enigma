@@ -9,6 +9,7 @@ let tasks = [];
 
 module.exports = {
 	module: require('./enigma.js'),
+	name: 'enigma',
 	permissions: [],
 	exposed: true,
 	tasks: tasks,
